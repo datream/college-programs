@@ -6,7 +6,7 @@ import math
 def area_circle():
     radius = input("Enter the value of radius: ")
     if radius.isalpha():
-        #For string Input
+        # For string Input
         print("Error, wrong input")
         area_circle()
     else:
@@ -17,7 +17,7 @@ def area_triangle():
     base = input("Enter the value of base: ")
     height = input("Enter the value of height: ")
     if base.isalpha() == True or height.isalpha() == True:
-        #For string Input
+        # For string Input
         print("Error, wrong input")
         area_triangle()
     else:
@@ -28,7 +28,7 @@ def area_rectangle():
     base = input("Enter the value of base: ")
     height = input("Enter the value of height: ")
     if base.isalpha() == True or height.isalpha() == True:
-        #For string Input
+        # For string Input
         print("Error, wrong input")
         area_triangle()
     else:
