@@ -30,7 +30,7 @@ def area_rectangle():
     if base.isalpha() == True or height.isalpha() == True:
         # For string Input
         print("Error, wrong input")
-        area_triangle()
+        area_rectangle()
     else:
         print("The area is", format(abs(float(base)) * abs(float(height)), '.2f'))
 
